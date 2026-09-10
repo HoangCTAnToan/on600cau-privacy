@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chính sách bảo mật — Ôn 600 câu lý thuyết lái xe</title>
+<meta name="description" content="Chính sách bảo mật của ứng dụng Ôn 600 câu lý thuyết lái xe, Trung tâm đào tạo lái xe An Toàn.">
+<link rel="icon" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap">
+
+<style>
+:root{
+  --page:#EDE7E1; --content:#F7F3EF; --surface:#FFFFFF;
+  --line:#E7E1DB; --line-strong:#D9D2CB;
+  --ink:#1C1917; --ink-2:#3F3A36; --muted:#57534E;
+  --brand:#E85D0D; --brand-deep:#B8410A; --brand-tint:#FFF1E6;
+  --ok-deep:#0B4A29; --ok-tint:#EAF7EF;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --page:#151310; --content:#1D1A16; --surface:#242019;
+    --line:#38322A; --line-strong:#463E34;
+    --ink:#F3EEE7; --ink-2:#CFC7BC; --muted:#A79E93;
+    --brand:#F5883F; --brand-deep:#F0A163; --brand-tint:#2E1E12;
+    --ok-deep:#7ACCA3; --ok-tint:#15281F;
+  }
+}
+*{box-sizing:border-box}
+body{
+  margin:0;background:var(--page);color:var(--ink);
+  font-family:Lexend,-apple-system,"Segoe UI",system-ui,sans-serif;
+  font-size:16px;line-height:1.72;-webkit-text-size-adjust:100%;
+}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px 80px}
+
+header{padding:44px 0 30px;display:flex;gap:18px;align-items:center}
+header img{width:66px;height:66px;border-radius:16px;flex:none;background:var(--surface)}
+.app{font-weight:700;font-size:19px;line-height:1.3}
+.org{font-size:14px;color:var(--muted)}
+
+h1{font-size:clamp(27px,5.4vw,37px);line-height:1.14;font-weight:700;
+   letter-spacing:-.02em;margin:0 0 10px;text-wrap:balance}
+.updated{font-size:14px;color:var(--muted);margin:0 0 26px}
+
+.lede{
+  background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--brand);
+  border-radius:12px;padding:18px 20px;margin:0 0 34px;font-size:15.5px;color:var(--ink-2);
+}
+.lede b{color:var(--ink);font-weight:600}
+
+section{margin:0 0 34px}
+h2{font-size:20px;font-weight:600;letter-spacing:-.01em;margin:0 0 12px;
+   padding-top:14px;border-top:1px solid var(--line-strong)}
+h3{font-size:16px;font-weight:600;margin:22px 0 6px}
+p{margin:0 0 12px;color:var(--ink-2)}
+ul{margin:0 0 12px;padding-left:22px;color:var(--ink-2)}
+li{margin:0 0 6px}
+a{color:var(--brand-deep);text-underline-offset:2px}
+strong{color:var(--ink);font-weight:600}
+
+table{width:100%;border-collapse:collapse;margin:0 0 14px;font-size:14.5px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:600;font-size:12.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+tbody tr:last-child td{border-bottom:0}
+.tbl{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+
+.note{background:var(--ok-tint);border-radius:10px;padding:14px 17px;margin:0 0 14px;
+      font-size:15px;color:var(--ink-2)}
+.note strong{color:var(--ok-deep)}
+
+.contact{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px 22px}
+.contact dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:8px 18px;font-size:15px}
+.contact dt{color:var(--muted);white-space:nowrap}
+.contact dd{margin:0;color:var(--ink-2)}
+.contact a{white-space:nowrap}
+
+footer{margin-top:46px;padding-top:18px;border-top:1px solid var(--line-strong);
+       font-size:13.5px;color:var(--muted)}
+@media (max-width:520px){
+  .contact dl{grid-template-columns:1fr;gap:2px 0}
+  .contact dt{margin-top:10px}
+}
+</style>
+
+<div class="wrap">
+
+<header>
+  <img src="icon.png" alt="">
+  <div>
+    <div class="app">Ôn 600 câu lý thuyết lái xe</div>
+    <div class="org">Trung tâm đào tạo lái xe An Toàn</div>
+  </div>
+</header>
+
+<h1>Chính sách bảo mật</h1>
+<p class="updated">Cập nhật lần cuối: 10 tháng 9 năm 2026 · Áp dụng cho ứng dụng
+<code>com.antoan.lythuyet600cau</code> trên Google Play và App Store.</p>
+
+<div class="lede">
+  <b>Tóm tắt:</b> Bạn học 600 câu lý thuyết mà không cần đăng ký tài khoản và không
+  cần cung cấp thông tin cá nhân nào. Tiến độ học nằm trong máy bạn. App chỉ gửi
+  thông tin ra ngoài <b>một lần duy nhất</b>, khi bạn tự điền form đăng ký khoá học.
+  Ngoài ra, quảng cáo và thanh toán do Google và Apple xử lý theo chính sách của họ.
+</div>
+
+<section>
+  <h2>1. Ai chịu trách nhiệm</h2>
+  <p>Ứng dụng do <strong>Trung tâm đào tạo lái xe An Toàn</strong> phát hành. Trung tâm
+  là bên chịu trách nhiệm về dữ liệu cá nhân mà ứng dụng thu thập. Thông tin liên hệ
+  ở mục 8.</p>
+</section>
+
+<section>
+  <h2>2. Dữ liệu nằm trong máy bạn, không gửi đi đâu</h2>
+  <p>Toàn bộ quá trình học được lưu bằng <code>localStorage</code> ngay trên thiết bị:</p>
+  <ul>
+    <li>câu bạn đã làm và đáp án bạn đã chọn;</li>
+    <li>câu bạn đánh dấu lưu;</li>
+    <li>lịch sử các lần thi thử;</li>
+    <li>hạng bằng lái bạn chọn, cỡ chữ và các tuỳ chọn hiển thị.</li>
+  </ul>
+  <p>Những dữ liệu này <strong>không được gửi lên máy chủ nào</strong>, kể cả máy chủ
+  của trung tâm. Chúng tôi không đọc được và không sao lưu được chúng. Gỡ ứng dụng
+  hoặc xoá dữ liệu ứng dụng là chúng biến mất hoàn toàn.</p>
+</section>
+
+<section>
+  <h2>3. Form đăng ký khoá học</h2>
+  <p>Ứng dụng có một màn hình <em>Đăng ký khoá học</em>. Đây là phần <strong>hoàn toàn
+  tự nguyện</strong> — bạn dùng đủ mọi tính năng học tập mà không cần đụng tới nó.</p>
+  <p>Nếu bạn điền và bấm gửi, ứng dụng gửi đúng ba trường sau về bảng tính Google Sheets
+  của trung tâm:</p>
+
+  <div class="tbl">
+  <table>
+    <thead><tr><th>Dữ liệu</th><th>Mục đích</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Họ và tên</strong></td><td>Để nhân viên trung tâm biết gọi tên ai khi liên hệ lại</td></tr>
+      <tr><td><strong>Số điện thoại</strong></td><td>Để gọi lại tư vấn và hướng dẫn thủ tục ghi danh</td></tr>
+      <tr><td><strong>Hạng bằng muốn học</strong></td><td>Để tư vấn đúng khoá và đúng học phí</td></tr>
+      <tr><td>Thời điểm gửi</td><td>Do hệ thống tự ghi, dùng để xếp thứ tự xử lý</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>Dữ liệu được truyền qua HTTPS tới dịch vụ Google Apps Script và ghi vào Google
+  Sheets thuộc tài khoản Google của trung tâm. Chỉ nhân viên phụ trách tuyển sinh của
+  trung tâm truy cập được bảng tính này.</p>
+  <p><strong>Chúng tôi dùng thông tin này để liên hệ về việc học lái xe, và không dùng
+  vào việc gì khác.</strong> Chúng tôi không bán, không cho thuê, không trao đổi thông
+  tin của bạn với bên thứ ba nào để họ tiếp thị.</p>
+  <p><strong>Thời gian lưu:</strong> giữ trong thời gian cần thiết để tư vấn và làm thủ
+  tục ghi danh, tối đa 24 tháng kể từ ngày bạn gửi, hoặc cho tới khi bạn yêu cầu xoá —
+  tuỳ điều nào đến trước.</p>
+</section>
+
+<section>
+  <h2>4. Quảng cáo</h2>
+  <p>Bản cài từ Google Play và App Store có một banner quảng cáo nhỏ ở đáy màn hình,
+  do <strong>Google AdMob</strong> cung cấp. Để chọn và đo lường quảng cáo, Google có
+  thể thu thập <strong>mã nhận dạng quảng cáo của thiết bị</strong>, địa chỉ IP và
+  thông tin kỹ thuật về thiết bị. Việc thu thập này do Google thực hiện, không đi qua
+  máy chủ của trung tâm và trung tâm không nhận được các dữ liệu đó.</p>
+  <p>Chi tiết xem
+  <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">cách Google sử dụng dữ liệu từ các ứng dụng dùng dịch vụ của Google</a>.</p>
+
+  <h3>Cách bạn giới hạn hoặc tắt quảng cáo cá nhân hoá</h3>
+  <ul>
+    <li><strong>Android:</strong> <em>Cài đặt → Google → Quảng cáo</em> — đặt lại hoặc
+        xoá mã nhận dạng quảng cáo.</li>
+    <li><strong>iOS:</strong> <em>Cài đặt → Quyền riêng tư &amp; Bảo mật → Theo dõi</em> —
+        ứng dụng chỉ theo dõi khi bạn đồng ý; từ chối thì quảng cáo vẫn hiện nhưng không
+        được cá nhân hoá.</li>
+    <li>Mua gói <strong>Premium</strong> trong ứng dụng để bỏ hẳn quảng cáo.</li>
+  </ul>
+  <div class="note"><strong>Bản web/PWA không có quảng cáo.</strong> AdMob là thư viện
+  dành riêng cho ứng dụng cài đặt, không chạy trên trình duyệt.</div>
+</section>
+
+<section>
+  <h2>5. Mua Premium</h2>
+  <p>Gói Premium (bỏ quảng cáo) được thanh toán qua <strong>Google Play Billing</strong>
+  hoặc <strong>App Store</strong>. Trung tâm <strong>không nhìn thấy và không lưu</strong>
+  số thẻ hay thông tin thanh toán của bạn — toàn bộ do Google và Apple xử lý.</p>
+  <p>Để biết bạn đã mua hay chưa trên nhiều thiết bị, ứng dụng dùng dịch vụ
+  <strong>RevenueCat</strong> làm trung gian xác thực giao dịch. RevenueCat nhận một
+  <strong>mã người dùng ẩn danh</strong> do hệ thống tự sinh cùng thông tin về giao dịch
+  (sản phẩm đã mua, thời điểm, trạng thái). Mã này không gắn với tên, số điện thoại hay
+  email của bạn. Xem
+  <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">chính sách bảo mật của RevenueCat</a>.</p>
+</section>
+
+<section>
+  <h2>6. Quyền của bạn</h2>
+  <p>Với thông tin bạn đã gửi qua form đăng ký khoá học, bạn có quyền:</p>
+  <ul>
+    <li><strong>Xem</strong> thông tin trung tâm đang giữ về bạn;</li>
+    <li><strong>Sửa</strong> nếu có sai sót;</li>
+    <li><strong>Yêu cầu xoá</strong> khỏi bảng tính của trung tâm;</li>
+    <li><strong>Rút lại sự đồng ý</strong>, tức là yêu cầu trung tâm ngừng liên hệ.</li>
+  </ul>
+  <p>Gọi tới một trong các số điện thoại ở mục 8 và nói rõ họ tên cùng số điện thoại bạn
+  đã đăng ký. Chúng tôi xử lý trong vòng <strong>30 ngày</strong>.</p>
+  <p>Dữ liệu học tập ở mục 2 nằm trong máy bạn nên bạn tự xoá được bất cứ lúc nào bằng
+  cách xoá dữ liệu ứng dụng hoặc gỡ ứng dụng — không cần liên hệ ai.</p>
+</section>
+
+<section>
+  <h2>7. Trẻ em</h2>
+  <p>Ứng dụng dành cho người học lái xe, đối tượng từ <strong>13 tuổi trở lên</strong>.
+  Chúng tôi không cố ý thu thập thông tin của trẻ em dưới 13 tuổi. Nếu phát hiện đã nhận
+  nhầm thông tin như vậy, chúng tôi sẽ xoá ngay khi được báo.</p>
+</section>
+
+<section>
+  <h2>8. Liên hệ</h2>
+  <div class="contact">
+    <dl>
+      <dt>Đơn vị</dt>
+      <dd>Trung tâm đào tạo lái xe An Toàn</dd>
+
+      <dt>Văn phòng Nha Trang</dt>
+      <dd>BT02-09 đường Hoàng Đình Giong, Khu đô thị Phước Long A, Phường Nam Nha Trang,
+          Tỉnh Khánh Hòa — <a href="tel:+84372642105">0372 642 105</a></dd>
+
+      <dt>Văn phòng Cam Ranh</dt>
+      <dd>489 Hùng Vương, Phường Bắc Cam Ranh, Tỉnh Khánh Hòa —
+          <a href="tel:+84325578079">0325 578 079</a></dd>
+
+      <dt>Văn phòng Phan Rang</dt>
+      <dd>Lô E4 đường Lý Chính Thắng, Phường Phan Rang, Tỉnh Khánh Hòa —
+          <a href="tel:+84327277699">0327 277 699</a></dd>
+
+      <dt>Giờ làm việc</dt>
+      <dd>Thứ Hai – Chủ Nhật, 7:30 – 17:30</dd>
+    </dl>
+  </div>
+</section>
+
+<section>
+  <h2>9. Thay đổi chính sách</h2>
+  <p>Khi có thay đổi, chúng tôi cập nhật trang này và sửa ngày ở đầu trang. Nếu thay đổi
+  làm ảnh hưởng đáng kể tới quyền của bạn — ví dụ thu thập thêm loại dữ liệu mới — chúng
+  tôi sẽ thông báo ngay trong ứng dụng trước khi áp dụng.</p>
+</section>
+
+<footer>
+  © 2026 Trung tâm đào tạo lái xe An Toàn. Trang này là chính sách bảo mật chính thức của
+  ứng dụng <em>Ôn 600 câu lý thuyết lái xe</em>, dùng cho hồ sơ trên Google Play và App Store.
+</footer>
+
+</div>
+</html>
